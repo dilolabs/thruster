@@ -1,13 +1,13 @@
 require_relative "lib/thruster/version"
 
 Gem::Specification.new do |s|
-  s.name        = "thruster"
+  s.name        = "thruster-dilolabs"
   s.version     = Thruster::VERSION
   s.summary     = "Zero-config HTTP/2 proxy"
   s.description = "A zero-config HTTP/2 proxy for lightweight production deployments"
-  s.authors     = [ "Kevin McConnell" ]
-  s.email       = "kevin@37signals.com"
-  s.homepage    = "https://github.com/basecamp/thruster"
+  s.authors     = [ "Kevin McConnell", "Cyril Blaecke" ]
+  s.email       = "cyril@dilolabs.fr"
+  s.homepage    = "https://github.com/dilolabs/thruster"
   s.license     = "MIT"
 
   s.metadata = {
