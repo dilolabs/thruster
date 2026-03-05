@@ -1,3 +1,7 @@
+## v0.1.19 / 2026-03-05
+
+* Build with Go 1.26 to address CVE-2025-68121
+
 ## v0.1.18 / 2026-02-02
 
 * Return correct exit code when terminated with signal (#110)
